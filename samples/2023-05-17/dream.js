@@ -35,14 +35,10 @@ function drawArea() {
 [new Date("2023-05-17T06:47:29.792"), 8, dream ],
 [new Date("2023-05-17T06:57:29.792"), 8, dream ],
 [new Date("2023-05-17T06:57:29.792"), 0, transparent ],
-[new Date("2023-05-17T07:28:02.777"), 0, transparent],
-[new Date("2023-05-17T07:28:02.777"), 8, dream ],
+[new Date("2023-05-17T07:23:02.777"), 0, transparent],
+[new Date("2023-05-17T07:23:02.777"), 8, dream ],
 [new Date("2023-05-17T07:48:02.777"), 8, dream ],
 [new Date("2023-05-17T07:48:02.777"), 0, transparent ],
-[new Date("2023-05-17T07:29:30.000"), 0, transparent],
-[new Date("2023-05-17T07:29:30.000"), 8, dream ],
-[new Date("2023-05-17T07:49:30.000"), 8, dream ],
-[new Date("2023-05-17T07:49:30.000"), 0, transparent ],
 [new Date("2023-05-17T07:51:30.000"), 0, transparent ],
     ]);
 
