@@ -5,7 +5,7 @@ function drawBasic() {
 
       var data = new google.visualization.DataTable();
       data.addColumn('date', 'time');
-      data.addColumn('number', 'hr');
+      data.addColumn('number', 'hrv');
 
       data.addRows([
 [new Date("2023-05-15T22:49:00.000"), 0.38],
@@ -1053,6 +1053,9 @@ function drawBasic() {
 [new Date("2023-05-16T07:35:21.173"), 0.38],
 [new Date("2023-05-16T07:35:30.000"), 0.38],
     ]);
+
+      var date_formatter = new google.visualization.DateFormat({ pattern: "HH:mm"}); 
+      date_formatter.format(data, 0);  // Where 0 is the index of the column
 
       var options = {
         'width': 1400,

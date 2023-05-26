@@ -1045,6 +1045,9 @@ function drawBasic() {
 [new Date("2023-05-17T07:51:30.000"), 2.4098,4.2157,8.5620],
       ]);
 
+      var date_formatter = new google.visualization.DateFormat({ pattern: "HH:mm"}); 
+      date_formatter.format(data, 0);  // Where 0 is the index of the column
+
       var options = {
         'width': 1400,
         'height': 200,
